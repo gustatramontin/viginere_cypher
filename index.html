@@ -11,15 +11,15 @@
 <body>
     <h1>Viginere Cypher</h1>
     <div class="inputs">
-        <textarea cols="50" rows="10">
-
-        </textarea>
+        <textarea cols="50" rows="10" oninput="viginere.encrypt(this.value)"></textarea>
         <div class="key">
             <label for="">Your Key</label>
-            <input type="text">
+            <input type="text" oninput="viginere.key_changed(this.value)" value="key">
         </div>
-        <textarea cols="50" rows="10"></textarea>
+        <textarea cols="50" rows="10" oninput="viginere.decrypt(this.value)"></textarea>
     </div>
+
+<script src="script.js"></script>
 
 </body>
 
