@@ -24,6 +24,7 @@ h1 {
 .inputs input, .inputs textarea {
     border: 1px solid rgb(85, 85, 85);
     border-radius: 10px;
+    padding: 10px;
 }
 
 .inputs .key {
