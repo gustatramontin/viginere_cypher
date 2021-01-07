@@ -51,6 +51,11 @@ class ViginereCypher {
         this.encrypt(text, 0, true)
     }
 
+    key_changed() {
+        const msg = document.querySelectorAll('textarea')[0].value
+        this.encrypt(msg)
+    }
+
     extend_key(key, length) { // This function is to extend the size of key to the size of the message by repeating the characters
 
         const repeat_ceil = Math.ceil(length / key.length)
