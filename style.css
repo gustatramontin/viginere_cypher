@@ -8,13 +8,21 @@
 
 }
 
-h1 {
-    text-align: center;
-    margin: 20px 0;
-    font-weight: 550;
+h1, h2 {
     font-family: 'Josefin Slab', serif;
+    text-align: center;
+    font-weight: 550;
+
+}
+
+h1 {
+    margin: 20px 0;
     font-size: 2.3rem;
     font-style: italic;
+}
+
+h2 {
+    margin-bottom: 5px;
 }
 
 .inputs {
