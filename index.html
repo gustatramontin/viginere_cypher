@@ -11,11 +11,13 @@
 <body>
     <h1>Viginere Cypher</h1>
     <div class="inputs">
+        <h2>Encryption</h2>
         <textarea cols="50" rows="10" oninput="viginere.encrypt(this.value)"></textarea>
         <div class="key">
             <label for="">Secret Key</label>
             <input type="text" oninput="viginere.key_changed()" value="key">
         </div>
+        <h2>Decryption</h2>
         <textarea cols="50" rows="10" oninput="viginere.decrypt(this.value)"></textarea>
     </div>
 
